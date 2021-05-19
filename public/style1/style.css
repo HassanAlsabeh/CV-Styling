@@ -1,0 +1,169 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+header hgroup{
+    padding: 20px;
+    margin-left: 10%;
+}
+header div{
+    background-color: grey;
+    display: flex;
+    flex-direction:row ;
+    color: red;
+}
+.contact-type{  
+    color: white;
+}
+.contact-value{
+  
+   padding-left: 100px;
+    
+   
+    
+}
+.contact dd{
+    position: absolute;
+}
+.contacts{
+    width: 600px; 
+    height: 80px; 
+     background: linear-gradient(to right, red 20%, red 24%, black 20%, black 50%);
+    position: absolute;
+    top: 40px;
+    right:40px;
+    margin-right: 2%;
+    padding: 25px;
+       
+}
+.contact-skype dd{
+    display: none;
+}
+.content{
+    
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 400px 500px;
+  padding: 0 8% 0 10%;
+  margin: 10px;
+}
+
+
+#contact h3 {
+    display: none;
+}
+h3{
+    border-bottom: 1px solid rgb(199, 194, 194);
+}
+.contact{
+    
+    display: flex;
+    justify-self: right;
+   align-items: flex-start;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+}
+section{
+   
+}
+.skills-primary div{
+    
+    background-color:rgb(226, 220, 220);
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+    
+}
+.skills-primary span{
+    display: block  ;
+      border: 1px solid rgb(253, 30, 0);
+      background-color: rgb(253, 30, 0);
+      color: white;
+      padding: 4px;
+      
+
+}
+.skills-secondary div{
+border: 1px solid rgb(226, 220, 220);
+    background-color:rgb(226, 220, 220);
+    padding: 8px;
+    margin: 5px;
+     width: 100%;
+
+}
+.skills-secondary  span{
+    display: block;
+      border: 1px solid rgb(235, 84, 64);
+      background-color: rgb(235, 84, 64);
+      color: white;
+      padding: 4px;
+     
+
+}
+
+.experience-type{
+    color: red;
+}
+ .experience-institution{
+     color: red;
+     
+ }
+.skills-primary:before {
+    content: 'Main';
+}
+.skills-secondary:before {
+    content: 'Other';
+}
+.experience-institution:before {
+    content: '@ ';
+}
+
+
+ h3::before{
+     content: " ";
+     height: 10px;
+     width: 10px;
+     background-color: red ;
+     border-radius: 50%;
+     display: inline-block; 
+     padding: 5px;   
+     margin-right: 4px;
+}
+.experience-location ,.experience-date{
+    color: rgb(156, 153, 153);
+}
+.experience-location:before {
+    content: 'In';
+}
+.experience-date-separator{
+    color: red;
+}
+.experience-date:before {
+    content: 'on';
+}
+ [data-skill="5"] span {
+    width: 50%;
+    
+}
+ [data-skill="1"] span {
+    width: 10%;
+    
+}
+ [data-skill="3"] span {
+    width: 30%;
+    
+}
+ [data-skill="9"] span {
+    width: 90%;
+    
+}
+ [data-skill="7"] span {
+    width: 70%;
+    
+}
+ 
