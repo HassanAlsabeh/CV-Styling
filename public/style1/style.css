@@ -171,7 +171,7 @@ border: 1px solid rgb(226, 220, 220);
         
     }
     .contacts{
-
+    margin-top: 20px;
     position: static    ;
      background: linear-gradient(to right, red 20%, red 24%, white 20%, white 50%);
      
@@ -190,6 +190,7 @@ header div{
 }
 #contact h3{
     display: unset;
+    margin-bottom: 2000px;
    
     
 }

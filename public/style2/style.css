@@ -202,3 +202,136 @@ header {
 .contact-skype{
     display: none;
 }
+@media only screen and (max-width: 600px) {
+    #about p{
+   
+    width: 400px;
+    height: 100px;
+    }
+    img{
+        display: none;
+    }
+#experiences{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-areas: "title " ;
+    padding-bottom: 50px;
+}
+#education     h3{
+    grid-area: title;
+    padding-right: 18px;
+}
+#education{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-areas: "title " ;
+    padding-bottom: 50px;
+}
+#experiences     h3{
+    grid-area: title;
+    padding-right: 18px;
+}
+
+#competencies{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-areas: "title " ;
+    padding-bottom: 50px;
+}
+#competencies     h3{
+    grid-area: title;
+    padding-right: 18px;
+}
+#hobbies{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-areas: "title " ;
+    padding-bottom: 50px;
+}
+#hobbies     h3{
+    grid-area: title;
+    padding-right: 18px;
+}
+ h3{
+     border-right: none;width: 100px;
+   border-bottom    : 1px solid black;
+}
+.skill{
+    border: 1px solid rgb(37, 173, 151);
+    background-color:rgb(37, 173, 151) ;
+    margin: 5px;
+    padding: 10px;
+    width: 90px;
+    display: flex;
+    display: inline-flex;
+}
+.skills-primary  div    {
+    padding: 2px;
+    font-size: 15px;
+}
+.skills-secondary  div    {
+    padding: 2px;
+    font-size: 10px;
+}
+
+.skills-primary [data-skill="5"]::after{
+    content: "\2605\2605\2605";
+    color: white;
+    margin-left:20% ;
+    
+   
+}
+ .skills-secondary [data-skill="5"]::after{
+    content: "\2605\2605\2605";
+    color: white;
+    margin-left:50% ;
+    
+   
+}
+ [data-skill="3"] span::after{
+    content: "\2605\2605";
+    color: white;
+    margin-left:60% ;
+}
+
+ [data-skill="1"] span::after{
+    content: "\2605";
+    color:white;
+    margin-left:15% ;
+   
+}
+ [data-skill="7"] span::after{
+    content: "\2605\2605\2605\2605\2605";
+    color: white;
+    margin-left:5% ;
+}
+ [data-skill="9"]::after{
+    content: "\2605\2605\2605\2605\2605";
+    color: white;
+    margin-left:20% ;
+        
+   
+ }
+
+ .experience-details{
+    opacity: 0.5;
+    float: right;
+    margin-top: -12.5%;
+}
+
+body{padding: 0 0 0 0;
+ margin-left: 20px;
+}
+#contact{
+    display: flex;
+    justify-content: flex-start;
+    width: 50px;
+}
+#contact{
+    align-content:baseline ;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unset;
+}
+}
