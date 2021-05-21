@@ -205,7 +205,7 @@ header {
 @media only screen and (max-width: 600px) {
     #about p{
    
-    width: 400px;
+    width: 350px;
     height: 100px;
     }
     img{
@@ -322,14 +322,52 @@ header {
 body{padding: 0 0 0 0;
  margin-left: 20px;
 }
-#contact{
-    display: flex;
-    justify-content: flex-start;
-    width: 50px;
+
+
+
+.contact-phone{
+    
+  
+    background: url(../images/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 100px;
 }
-#contact{
-    align-content:baseline ;
-    width: 30%;
+.contact-email{
+   
+   
+    background: url(../images/email.png);
+    background-size: contain;
+     background-repeat: no-repeat;
+    width: 20%;
+    height: 100px;
+}
+.contact-github{
+    
+   
+   
+    background: url(../images/github.png);
+    background-size: contain;
+     background-repeat: no-repeat;
+    width: 20%;
+    height: 100px;
+}
+
+.contact-facebook   {
+    
+   
+    
+    background: url(../images/facebook.png);
+    background-size: contain;
+     background-repeat: no-repeat;
+   width: 20%;
+   height: 100px;
+     
+}
+
+.contacts{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: unset;
