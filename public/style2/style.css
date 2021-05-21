@@ -1,0 +1,204 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+  padding: 50px 150px 0 50px;
+  margin-left: 100px;
+}
+
+figure{
+    position:absolute;
+    top: 50PX;
+    right: 250PX;
+}
+img{
+    
+    width: 200px;
+    height: 200px;
+    -ms-transform: rotate(15deg); /* IE 9 */
+  transform: rotate(-15deg);
+}
+hgroup h2, .experience-institution{
+    display: none;
+}
+header {
+    border-bottom: 1px solid gray;
+    
+}
+#about h3 {
+      display: none;      
+}
+#about p{
+   
+    width: 600px;
+    height: 100px;
+    font-style: italic;
+    opacity: 0.5;
+    padding-bottom: 50px;
+}
+#competencies{
+    display: grid;
+    grid-template-columns: 0.12fr 1fr;
+    grid-template-areas: "title skill" "title skill2";
+    padding-bottom: 50px;
+}
+#competencies h3{
+    grid-area: title;
+}
+#experiences{
+    display: grid;
+    grid-template-columns: 0.12fr 1fr;
+    grid-template-areas: "title skill" "title skill2";
+    padding-bottom: 50px;
+}
+#experiences     h3{
+    grid-area: title;
+    padding-right: 18px;
+}
+#education{
+    display: grid;
+    grid-template-columns: 0.14fr 1fr;
+    grid-template-areas: "title skill" "title skill2";
+    padding-bottom: 50px;
+}
+#education     h3{
+    grid-area: title;
+    padding-right: 18px;
+}
+#hobbies{
+    display: grid;
+    grid-template-columns: 0.14fr 1fr;
+    grid-template-areas: "title skill" "title skill2";
+    padding-bottom: 50px;
+}
+#hobbies     h3{
+    grid-area: title;
+    padding-right: 18px;
+}
+.skill{
+    border: 1px solid rgb(37, 173, 151);
+    background-color:rgb(37, 173, 151) ;
+    margin: 15px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    display: inline-flex;
+}
+.skills-primary  div    {
+    padding: 10px;
+    font-size: 20px;
+}
+#experience{
+    display: grid;
+    grid-template-columns:1fr 1fr; 
+    grid-template-areas: "title";
+}
+
+ .skills-primary [data-skill="5"]::after{
+    content: "\2605\2605\2605";
+    color: white;
+    margin-left:30% ;
+    
+   
+}
+ .skills-secondary [data-skill="5"]::after{
+    content: "\2605\2605\2605";
+    color: white;
+    margin-left:50% ;
+    
+   
+}
+ [data-skill="3"] span::after{
+    content: "\2605\2605";
+    color: white;
+    margin-left:100% ;
+}
+
+ [data-skill="1"] span::after{
+    content: "\2605";
+    color:white;
+    margin-left:40% ;
+   
+}
+ [data-skill="7"] span::after{
+    content: "\2605\2605\2605\2605\2605";
+    color: white;
+    margin-left:10% ;
+}
+ [data-skill="9"]::after{
+    content: "\2605\2605\2605\2605\2605";
+    color: white;
+    margin-left:30% ;
+        
+   
+ }
+
+
+
+ h3{
+   border-right: 1px solid black;
+}
+.experience-type{
+    color: rgb(39, 117, 107);
+}
+.experience-details{
+    opacity: 0.5;
+    float: right;
+    margin-top: -4.5%;
+}
+.experience-date-separator{
+    
+    color:rgb(6, 90, 79) ;
+}
+.experience{
+    padding-left:10px;
+}
+.contact-type,.contact-value{
+    display: none;
+}
+.contact-phone{
+    
+    width: 100px;
+    height: 100px;
+    background: url(../images/phone.png);
+    background-size: 100px 100px;
+    margin: 20px;
+}
+.contact-email{
+   
+    width: 100px;
+    height: 100px;
+    background: url(../images/email.png);
+    background-size: 100px 100px;
+    margin: 20px;
+}
+.contact-github{
+    
+   
+    width: 100px;
+    height: 100px;
+    background: url(../images/github.png);
+    background-size: 100px 100px;
+    margin: 20px;
+}
+
+.contact-facebook   {
+    
+   
+    width: 100px;
+    height: 100px;
+    background: url(../images/facebook.png);
+    background-size: 100px 100px;
+    margin: 20px;
+     
+}
+#contact h3{
+    display: none;
+}
+.contacts{
+   display: flex;
+   justify-content: center;
+   margin-right: 20px;
+   
+}
+.contact-skype{
+    display: none;
+}
