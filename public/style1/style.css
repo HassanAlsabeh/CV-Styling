@@ -68,9 +68,7 @@ a{
     color: red;
     padding: 10px;
 }
-section{
-   
-}
+
 .skills-primary div{
     
     background-color:rgb(226, 220, 220);
@@ -167,3 +165,32 @@ border: 1px solid rgb(226, 220, 220);
     
 }
  
+@media only screen and (max-width: 600px) {
+    .content {
+        display: block;
+        
+    }
+    .contacts{
+
+    position: static    ;
+     background: linear-gradient(to right, red 20%, red 24%, white 20%, white 50%);
+     
+}
+.contact-skype dd{
+    display: unset;
+  margin-left: 50px;
+}
+
+body{margin: auto;}
+header div{
+    background-color: grey;
+    display: flex;
+    flex-direction:column ;
+    color: red;
+}
+#contact h3{
+    display: unset;
+   
+    
+}
+ }
